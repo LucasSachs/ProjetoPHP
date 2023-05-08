@@ -3,6 +3,6 @@
 @section('title', 'About Page')
 
 @section('content')
-    <h1>Seja bem vindo ao Laravel 6</h1>
+    <h1>Seja bem vindo a nossa pagina de about!</h1>
     <p>Texto adicional</p>
 @endsection

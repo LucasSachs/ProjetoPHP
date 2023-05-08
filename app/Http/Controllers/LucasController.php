@@ -11,6 +11,8 @@ class LucasController extends Controller
     }
 
     public function services() {
-        return view('services');
+        $servicos = [];
+
+        return view('services', compact('servicos'));
     }
 }
