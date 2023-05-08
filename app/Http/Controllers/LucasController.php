@@ -6,7 +6,11 @@ use Illuminate\Http\Request;
 
 class LucasController extends Controller
 {
-    public function index() {
-        return view('teste');
+    public function about() {
+        return view('about');
+    }
+
+    public function services() {
+        return view('services');
     }
 }
