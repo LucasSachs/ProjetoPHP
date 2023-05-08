@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/Hello', 'App\Http\Controllers\Controller@index');
+Route::get('/Hello', 'App\Http\Controllers\LucasController@index');
